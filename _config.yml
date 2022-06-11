@@ -20,8 +20,8 @@ title      : "Yobbi Games"
 email      : "info@yobbigames.com" #this is also the email contact forms will go to
 description: "We develop great games to for our players to have great time."
 author     : ""
-#logo       : "assets\img\clients\yobbi-icon-transparent.png" #optional, defaults to site title
-path: assets\img\yobbi-icon-transparent.png
+#logo       :  #optional, defaults to site title
+path: assets\img\yobbigames\logo.png
 # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml

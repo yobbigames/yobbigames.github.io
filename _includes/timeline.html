@@ -30,7 +30,7 @@
               {% endif %}
             {%- endif -%}
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                <img class="rounded-circle img-fluid" style='height: 100%; width: 100%; object-fit: contain' src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
