@@ -47,13 +47,13 @@ en: &DEFAULT_EN
       - title: "Our Humble Beginning"
         year: "February 2019"
         desc: "We were lured the idea of having our own company - Yobbi Games!"
-        image: assets/img/yobbigames/logo.png
+        image: /assets/img/yobbigames/logo.png
         alt: yobbi-logo
         align: left
       - title: "Sudoku Yo"
         year: "June 2022"
         desc: "Our first game after lots of effort of research and learnings!"
-        image: assets/img/sudoku-yo/app-icon.png
+        image: /assets/img/sudoku-yo/app-icon.png
         alt: sudoku-yo-icon
         align: right
     end: "Be Part <br> of Our <br> Story!"
@@ -71,16 +71,16 @@ en: &DEFAULT_EN
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
+        logo: /assets/img/clients/envato.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
+        logo: /assets/img/clients/designmodo.jpg
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+        logo: /assets/img/clients/themeforest.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: /assets/img/clients/creative-market.jpg
 
   team:
     title: "OUR AMAZING TEAM"
@@ -90,7 +90,7 @@ en: &DEFAULT_EN
     people:
       - name: "Kay Garland"
         role: "Co-founder"
-        image: assets/img/yobbigames/logo.png
+        image: /assets/img/team/kay-garland.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -115,7 +115,10 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    privacy-notice: "Privacy Policy"
+    privacy-notice-url: "/legal/privacy-policy"
+    terms-of-service: "Terms of Service"
+    terms-of-service-url: "/legal/terms-of-service"
     social:
       - url: https://twitter.com/yobbigames
         icon: "fab fa-twitter"
@@ -176,22 +179,22 @@ es: &DEFAULT_ES
       - title: "Nuestro Humilde Comienzo"
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+        image: /assets/img/timeline/1.jpg
         alt:
       - title: "Una Agencia nace"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+        image: /assets/img/timeline/2.jpg
         alt:
       - title: "La plantilla Jekyll es creada"
         year: "2019"
         desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
+        image: /assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Título"
         year: "2009-2011"
         desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
+        image: /assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
@@ -210,16 +213,16 @@ es: &DEFAULT_ES
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
+        logo: /assets/img/clients/envato.jpg
       - title: "designmodo"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
+        logo: /assets/img/clients/designmodo.jpg
       - title: "themeforest"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
+        logo: /assets/img/clients/themeforest.jpg
       - title: "Creative Market"
         url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+        logo: /assets/img/clients/creative-market.jpg
 
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"
@@ -229,7 +232,7 @@ es: &DEFAULT_ES
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -239,7 +242,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Larry Parker"
         role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+        image: /assets/img/team/2.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -249,7 +252,7 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
       - name: "Diana Perterson"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+        image: /assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -274,7 +277,10 @@ es: &DEFAULT_ES
     submit: "Enviar Mensaje"
 
   footer:
-    legal: "Política de Privacidad"
+    privacy-notice: "Política de Privacidad"
+    privacy-notice-url: "legal/en/privacy-notice"
+    terms-of-service: "Terms of Service"
+    terms-of-service-url: "legal/en/terms-of-service"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"

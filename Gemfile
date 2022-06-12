@@ -3,6 +3,7 @@ source "https://rubygems.org"
 
 # gem "jekyll-agency"
 gem "jekyll-remote-theme"
+gem 'jekyll-redirect-from'
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
