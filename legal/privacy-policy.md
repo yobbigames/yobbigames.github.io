@@ -7,11 +7,13 @@ background: grey
 <div class="col-lg-12 text-center">
 	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
 </div>
-Last Update: 12 Jun 2022
+Last Update: 13 Nov 2025
 
 # Yobbi Games Privacy Policy
 
-This Privacy Policy was executed by and between Yobbi Games (“Yobbi”) as the “Data Controller” and you. In this context, the purpose of this Privacy Policy is to provide information on the collection, processing and use of the data provided by you in connection with the use of Yobbi’s Games as well as the grade, purpose and scope of transfer thereof. The purpose of this privacy notice is to provide you with information regarding the processing of personal data of the users that use our games/applications (Referred to as “Games” together). When you use the Games; or somehow communicates with Yobbi, Yobbi collects information about you in accordance with the nature of the information and transaction within the current technical possibilities. You accept, acknowledge and promise that your personal information and data might be used in limited manner by Yobbi and/or through Yobbi to the extent that it is limited to the format and purposes set forth in this Privacy Policy. Every type of information related to an identified or identifiable natural person constitutes personal data. Processing your personal data signifies all types of transactions performed on the data such as; obtaining, recording, storing, preserving, altering, re-arranging, disclosing, transferring, acquiring, making accessible, alignment and preventing access.
+This Privacy Policy applies to all Yobbi Games mobile applications and games.
+
+This Privacy Policy was executed by and between Yobbi Games ("Yobbi") as the "Data Controller" and you. In this context, the purpose of this Privacy Policy is to provide information on the collection, processing and use of the data provided by you in connection with the use of Yobbi’s Games as well as the grade, purpose and scope of transfer thereof. The purpose of this privacy notice is to provide you with information regarding the processing of personal data of the users that use our games/applications (Referred to as “Games” together). When you use the Games; or somehow communicates with Yobbi, Yobbi collects information about you in accordance with the nature of the information and transaction within the current technical possibilities. You accept, acknowledge and promise that your personal information and data might be used in limited manner by Yobbi and/or through Yobbi to the extent that it is limited to the format and purposes set forth in this Privacy Policy. Every type of information related to an identified or identifiable natural person constitutes personal data. Processing your personal data signifies all types of transactions performed on the data such as; obtaining, recording, storing, preserving, altering, re-arranging, disclosing, transferring, acquiring, making accessible, alignment and preventing access.
 
 1. The purposes of collecting and processing personal data
    

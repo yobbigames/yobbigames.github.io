@@ -8,9 +8,11 @@ background: grey
 	<h2 class="section-heading text-uppercase">Terms of Service</h2>
 </div>
 
-Last Update: 12 Jun 2022
+Last Update: 13 Nov 2025
 
-We are Yobbi Games, a company under laws of Turkey, with registered address at: Mustafa Kemal Pasa mh. Istiklal cd. 34320 Avcilar/Istanbul, (“Yobbi Games” or “Yobbi” or “We” or “Us”), is a developer and publisher of games and mobile game applications that are made available via app stores including the Apple Application Store and Google Play Store (our “Games”).
+This Terms of Service applies to all Yobbi Games mobile applications and games.
+
+We are Yobbi Games, a company under laws of Turkey, with registered address at: Mustafa Kemal Pasa mh. Istiklal cd. 34320 Avcilar/Istanbul, ("Yobbi Games" or "Yobbi" or "We" or "Us"), is a developer and publisher of games and mobile game applications that are made available via app stores including the Apple Application Store and Google Play Store (our "Games").
 
 As a precondition for you using the Services, you must agree to these Terms of Service (“Agreement”). By using or otherwise accessing the Services, you agree to the Agreement. If you do not agree to the Agreement, you may not use or otherwise access the Services.
 
