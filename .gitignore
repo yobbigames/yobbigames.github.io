@@ -7,3 +7,7 @@ _site
 Gemfile.lock
 unused
 bootstrap-reference.html
+# Claude Code local
+.claude/
+restricted.txt
+skip_dirs.txt
