@@ -40,9 +40,7 @@ p { margin: 0; max-width: 62ch; }
 .site-header { background: var(--night); color: var(--paper); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
-.wordmark { display: grid; line-height: .9; font-family: var(--f-display); }
-.wordmark b { font-size: 24px; font-weight: 850; font-stretch: 112%; letter-spacing: -0.01em; color: var(--paper); }
-.wordmark small { font-size: 9px; font-weight: 700; font-stretch: 118%; letter-spacing: .32em; text-transform: uppercase; color: var(--brass); margin-top: 4px; padding-left: 2px; }
+.wordmark { display: block; height: 44px; width: auto; }
 .site-nav { display: flex; gap: 22px; }
 .site-nav a { font: 700 14px var(--f-display); font-stretch: 106%; color: var(--paper); text-decoration: none; opacity: .9; }
 .site-nav a:hover { opacity: 1; color: var(--brass); }
