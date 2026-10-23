@@ -1,27 +1,23 @@
-<!DOCTYPE html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
-
-  {% include head.html %}
-
-  <body id="page-top">
-
-      {{ content }}
-
-	  {% include footer.html %}
-
-	  <!-- Bootstrap core JavaScript -->
-	  <script src="/assets/js/jquery.min.js"></script>
-	  <script src="/assets/js/bootstrap.bundle.min.js"></script>
-
-	  <!-- Plugin JavaScript -->
-	  <script src="/assets/js/jquery.easing.min.js"></script>
-
-	  <!-- Contact form JavaScript -->
-	  <script src="/assets/js/jqBootstrapValidation.js"></script>
-	  <script src="/assets/js/contact_me.js"></script>
-
-	  <!-- Custom scripts for this template -->
-	  <script src="/assets/js/agency.min.js"></script>
-
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/img/brand/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/brand/apple-touch-icon.png">
+  <meta name="theme-color" content="#141A2E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body class="{{ page.body_class | default: layout.body_class }}">
+  {% include header.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
 </html>

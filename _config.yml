@@ -1,44 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
+title: Yobbi Games
+tagline: Games for friends
+description: "Yobbi Games is an independent studio making co-op and party games for Steam, and card and word games for your phone."
+url: "https://www.yobbigames.com"
+baseurl: ""
+email: info@yobbigames.com
+lang: en
+locale: en_US
+logo: /assets/img/brand/og.png
 
-# Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-#theme: jekyll-agency
-remote_theme: raviriley/agency-jekyll-theme
-
-url    : "https://www.yobbigames.com" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-
-title      : "Yobbi Games"
-email      : "info@yobbigames.com" #this is also the email contact forms will go to
-description: "We develop great games to for our players to have great time."
-author     : ""
-#logo       :  #optional, defaults to site title
-path: assets\img\yobbigames\logo.png
-# height: 60 #height in px, defaults to 52px
-
-locale: "en-US" # See available languages in _data/sitetext.yml
-
-analytics:
-  google: #Google Analytics tracking code here
-
-collections:
-  portfolio:
+twitter:
+  username: yobbigames
+  card: summary_large_image
+social:
+  name: Yobbi Games
+  links:
+    - https://www.youtube.com/@yobbigames
+    - https://www.tiktok.com/@yobbigames
+    - https://instagram.com/yobbigames
+    - https://x.com/yobbigames
+    - https://facebook.com/yobbigames
+    - https://www.linkedin.com/company/yobbigames
 
 markdown: kramdown
-
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-formspree_form_path: "f/mnqwrggv"
+permalink: pretty
+theme: null   # no theme: the github-pages gem would otherwise pull in Primer
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-redirect-from
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/img/brand/og.png
+  - scope:
+      path: "games"
+    values:
+      layout: game
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

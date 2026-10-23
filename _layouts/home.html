@@ -1,12 +1,56 @@
 ---
 layout: default
+body_class: home
 ---
-{% include navheader.html %}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Independent game studio</p>
+    <h1>Games for friends.<br><span>Co-op, versus and everything between.</span></h1>
+    <p class="lede">We make multiplayer games for Steam, and card and word games for your phone. Small team, long winters, one squirrel.</p>
+    <a class="button" href="#games">See the games</a>
+  </div>
+</section>
 
-{% include portfolio_grid.html %}
-{% include services.html %}
-{% include about.html %}
-{% include timeline.html %}
-{% include team.html %}
-{% include clients.html %}
-{% include contact.html %}
+<section class="games" id="games">
+  <div class="wrap">
+    <h2>On Steam</h2>
+    <div class="cards">
+      {% for game in site.data.games %}{% if game.platform == "steam" and game.hidden != true %}
+      <a class="card{% unless game.card %} card-text{% endunless %}" href="/games/{{ game.slug }}/">
+        {% if game.card %}<img src="{{ game.card }}" alt="{{ game.name }} key art" loading="lazy">{% else %}<div class="card-placeholder"><span>{{ game.name }}</span></div>{% endif %}
+        <div class="card-body">
+          <h3>{{ game.name }}</h3>
+          <p>{{ game.tagline }}</p>
+          <span class="pill pill-{{ game.status }}">{% case game.status %}{% when "coming" %}Coming to Steam{% when "wishlist" %}Wishlist on Steam{% when "development" %}In development{% else %}Out now{% endcase %}</span>
+        </div>
+      </a>
+      {% endif %}{% endfor %}
+    </div>
+
+    <h2>On your phone</h2>
+    <div class="apps">
+      {% for game in site.data.games %}{% if game.platform == "android" and game.hidden != true %}
+      <a class="app" href="/games/{{ game.slug }}/">
+        <img src="{{ game.icon }}" alt="" width="64" height="64" loading="lazy">
+        <div>
+          <h3>{{ game.name }}</h3>
+          <p>{{ game.tagline }}</p>
+          <span class="pill pill-live">Google Play</span>
+        </div>
+      </a>
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <h2>Since 2019</h2>
+    <div class="timeline">
+      <div><b>2019</b><span>Yobbi Games starts, as a name and a plan.</span></div>
+      <div><b>2022</b><span>The first game ships on Google Play.</span></div>
+      <div><b>2026</b><span>Batak Offline and Crossword Puzzle on Google Play. Overbooked and Tiny Troupe head for Steam.</span></div>
+    </div>
+    <p class="about-text">Yobbi is a small studio. We build the games ourselves, tools included, and we show them when they are ready to be played, not before. Everyone who works on a Yobbi game is a Yobbian.</p>
+  </div>
+</section>

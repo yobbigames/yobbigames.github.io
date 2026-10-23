@@ -1,12 +1,7 @@
 ---
 layout: page
 title: Terms of Service
-background: grey
 ---
-
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Terms of Service</h2>
-</div>
 
 Last Update: 19 Feb 2026
 

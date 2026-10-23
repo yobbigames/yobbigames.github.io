@@ -1,0 +1,105 @@
+# Every game the site shows, in display order. A game with `hidden: true` stays out of the
+# lists, the sitemap and search engines until its store page is live.
+#
+# status: coming (Steam page not up yet), wishlist (Steam page up), live (in a store),
+#         development (announced, no store page planned yet)
+
+- slug: overbooked
+  name: Overbooked
+  platform: steam
+  status: coming
+  tagline: Couch co-op for 1 to 4 librarians in a pop-up library that is far too busy.
+  blurb: >-
+    Shelve the returns before the pile buries the belt, find the book a visitor half
+    remembers, and grab a friend for the Binding Press, because it needs two pairs of hands.
+  card: /assets/img/games/overbooked/card.jpg
+  hero: /assets/img/games/overbooked/hero.jpg
+  screenshots:
+    - { src: /assets/img/games/overbooked/book_fair_four_players.jpg, alt: "Four librarians on Book Fair day, visitors queueing at the desk" }
+    - { src: /assets/img/games/overbooked/map_room_binding_press.jpg, alt: "Two players working the Binding Press in the Map Room" }
+    - { src: /assets/img/games/overbooked/closing_time_offers.jpg, alt: "Closing Time: the shelf unfolds with the day's offers" }
+  facts:
+    - 1 to 4 players on one screen, or online with friends through Steam
+    - Two-person stations: the Binding Press, the atlases, one Lantern
+    - 5 wings with their own rules, 5 Big Days, 8 librarians
+    - Solo mode with helpers
+    - English, German and Turkish, full gamepad support
+  steam: null
+  windows: true
+  macos: true
+  linux: true
+
+- slug: tiny-troupe
+  name: "Tiny Troupe: Showtime"
+  short: Tiny Troupe
+  platform: steam
+  status: coming
+  tagline: A roguelite auto-battler about a touring troupe nobody wanted.
+  blurb: >-
+    Hire odd acts, stack three of a kind into stars and line up their Ultimates for a
+    SHOWSTOPPER, while the crowd (or your Twitch chat) throws roses and tomatoes.
+  card: /assets/img/games/tiny-troupe/card.jpg
+  hero: /assets/img/games/tiny-troupe/hero.jpg
+  screenshots:
+    - { src: /assets/img/games/tiny-troupe/showstopper.jpg, alt: "A SHOWSTOPPER lands and the crowd throws roses" }
+    - { src: /assets/img/games/tiny-troupe/merge.jpg, alt: "Three of a kind merge into a star" }
+    - { src: /assets/img/games/tiny-troupe/twitch_audience.jpg, alt: "Twitch chat seated in the crowd, voting" }
+  facts:
+    - 15 heroes, 8 Team-Ups, 43 Props, 5 Producers
+    - 13 shows over two acts and a Grand Finale, then an endless Encore
+    - Daily and weekly shows with a shared seed and Steam leaderboards
+    - Twitch mode: chat votes and takes seats in the crowd, no login needed
+    - One price. No gacha, no energy timers, no ads
+  steam: null
+  windows: true
+  macos: true
+  linux: true
+
+- slug: thawborn
+  name: Thawborn
+  platform: steam
+  status: development
+  tagline: A 30-minute survival-RTS where the real enemy is the cold.
+  blurb: >-
+    Lead a small stone-age tribe through one winter, as a hero on the map rather than a
+    cursor above it. 1v1, 2v2 or four tribes in a free-for-all. Last fire burning at spring
+    wins.
+  card: null
+  hero: null
+  screenshots: []
+  facts:
+    - 1v1, 2v2 and four-tribe free-for-all
+    - One winter that escalates inside a single match
+    - Early in development. Screenshots when there is something to show
+  steam: null
+
+- slug: batak-offline
+  name: Batak Offline
+  platform: android
+  status: live
+  tagline: The classic Turkish trick-taking card game, no wifi needed.
+  blurb: >-
+    Batak against 4 levels of AI, with the standard, fixed-trump and no-trump variants, for
+    3 or 4 players at the table.
+  icon: /assets/img/games/batak-offline/icon.png
+  play: https://play.google.com/store/apps/details?id=com.yobbigames.offlinebatak
+  facts:
+    - Standard, Fixed Trump and No Trump modes
+    - 3 or 4 players, 4 AI levels
+    - Plays offline
+
+- slug: crossword
+  name: Crossword Puzzle
+  platform: android
+  status: live
+  tagline: Themed crosswords in English and Turkish, with a daily challenge.
+  blurb: >-
+    Classic crosswords, Word Connect and Letter Wheel across 11 themes and several difficulty
+    levels, with a daily wheel, quests and streaks.
+  icon: /assets/img/games/crossword/icon.png
+  play: https://play.google.com/store/apps/details?id=com.yobbigames.crossword
+  facts:
+    - 210+ puzzles in English and Turkish
+    - Classic Crossword, Word Connect and Letter Wheel
+    - Daily challenge with streaks, 44 quests
+    - Plays offline

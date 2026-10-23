@@ -1,17 +1,14 @@
 ---
 layout: page
 title: Privacy Policy
-background: grey
 ---
 
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
-</div>
-Last Update: 19 Feb 2026
+Last Update: 23 Oct 2026
 
-# Yobbi Games Privacy Policy
 
 This Privacy Policy applies to all Yobbi Games applications and games available on the Apple App Store, Google Play Store, and Steam (collectively, the "Platforms").
+
+It also covers our website, yobbigames.com. The website sets no cookies. We measure visits with Cloudflare Web Analytics, which counts page views without storing identifiers on your device; the email address you send to info@yobbigames.com is used only to answer you.
 
 This Privacy Policy was executed by and between Yobbi Games ("Yobbi Games" or "Yobbi" or "We" or "Us") as the "Data Controller" and you. In this context, the purpose of this Privacy Policy is to provide information on the collection, processing and use of the data provided by you in connection with the use of Yobbi's Games as well as the scope, purpose and legal basis of such processing. The purpose of this privacy notice is to provide you with information regarding the processing of personal data of the users that use our games and applications (referred to as "Games" together).
 
@@ -88,6 +85,7 @@ When you use the Games or communicate with Yobbi, Yobbi collects information abo
 	| ------------ | ------------- |
 	| **Analytics services** | |
 	| Google LLC (Firebase) | https://firebase.google.com/support/privacy |
+	| Cloudflare, Inc. (Web Analytics on yobbigames.com, no cookies, no identifiers stored) | https://www.cloudflare.com/privacypolicy/ |
 	| **Advertisement business partners (advertisement networks)** |  |
 	| Google LLC (Google Ads, AdMob) | https://policies.google.com/privacy |
 

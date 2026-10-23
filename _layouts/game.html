@@ -1,0 +1,56 @@
+---
+layout: default
+body_class: game
+---
+{% assign game = site.data.games | where: "slug", page.slug | first %}
+<section class="game-hero{% unless game.hero %} game-hero-text{% endunless %}">
+  {% if game.hero %}<img class="game-hero-img" src="{{ game.hero }}" alt="">{% endif %}
+  <div class="wrap">
+    <p class="eyebrow">{% if game.platform == "steam" %}Steam · Windows, macOS, Linux{% else %}Google Play{% endif %}</p>
+    <h1>{{ game.name }}</h1>
+    <p class="lede">{{ game.tagline }}</p>
+    <div class="cta">
+      {% if game.steam %}<a class="button" href="{{ game.steam }}">Wishlist on Steam</a>
+      {% elsif game.play %}<a class="button" href="{{ game.play }}">Get it on Google Play</a>
+      {% elsif game.status == "development" %}<span class="pill pill-development">In development</span>
+      {% else %}<span class="pill pill-coming">Steam page coming</span><a class="button button-ghost" href="#follow">Follow along</a>{% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="game-body">
+  <div class="wrap">
+    <div class="game-text">
+      <p class="blurb">{{ game.blurb }}</p>
+      {{ content }}
+    </div>
+    <aside class="facts">
+      <h2>In short</h2>
+      <ul>
+        {% for fact in game.facts %}<li>{{ fact }}</li>{% endfor %}
+      </ul>
+    </aside>
+  </div>
+</section>
+
+{% if game.screenshots and game.screenshots.size > 0 %}
+<section class="shots">
+  <div class="wrap">
+    <div class="shot-grid">
+      {% for shot in game.screenshots %}<figure><img src="{{ shot.src }}" alt="{{ shot.alt }}" loading="lazy"></figure>{% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="follow" id="follow">
+  <div class="wrap">
+    {% if game.platform == "steam" and game.steam == null %}
+    <h2>Follow along</h2>
+    <p>{{ game.short | default: game.name }} has no Steam page yet. New clips go out on <a href="https://www.youtube.com/@yobbigames">YouTube</a>, <a href="https://www.tiktok.com/@yobbigames">TikTok</a> and <a href="https://instagram.com/yobbigames">Instagram</a>; the Steam link lands here the day the page opens.</p>
+    {% else %}
+    <h2>Need a hand?</h2>
+    <p>Questions, bugs and ideas about {{ game.short | default: game.name }}: <a href="mailto:info@yobbigames.com?subject={{ game.name | uri_escape }}">info@yobbigames.com</a>.</p>
+    {% endif %}
+  </div>
+</section>
